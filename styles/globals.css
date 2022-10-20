@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif !important;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(24, 24, 105, 1) 100%
+  );
+  overflow-x: hidden;
 }
 
 a {
@@ -14,6 +22,16 @@ a {
 * {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+.menu ul li a,
+.fa-angle-down {
+  color: #fff;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -22,5 +40,402 @@ a {
   body {
     color: white;
     /*background: black;*/
+  }
+}
+
+/* FONT COLOR OF ALL TEXT TO WHITE */
+.fa-angle-down {
+  color: #fff;
+}
+/* NAVIGATION BAR PROP AS A OUTER CONTAINER */
+.navbar-inner {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+.navbar .navbar-nav {
+  padding-right: 45px;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: rgb(231, 0, 139);
+}
+.nav-item .nav-link:focus{
+    color: initial;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* LOGIN BUTTON ON NAVBAR */
+.buttons {
+  flex: 1;
+  display: flex;
+  justify-content: center !important;
+}
+.btn1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  font-size: 15px;
+  background: rgb(231, 0, 139);
+  color: #fff;
+}
+
+/* UP ARROW ICON ON LOGIN BUTTON TILTED */
+.fa-arrow-right {
+  transform: rotateZ(-45deg);
+}
+
+/* GOOGLE MODAL BUTTON */
+.btns-modal .google img {
+  left: 25px;
+  font-weight: bold;
+}
+
+/* FACEBOOK MODAL BUTTON */
+.btns-modal .facebook {
+  background-color: #475993;
+  color: #fff;
+  font-weight: bold;
+}
+.btns-modal .facebook img {
+  left: 25px;
+}
+
+/* TWITTER MODAL BUTTON */
+.btns-modal .twitter {
+  background-color: #03a9f4;
+  color: #fff;
+  font-weight: bold;
+}
+.btns-modal .twitter img {
+  left: 25px;
+}
+
+/* GITHUB MODAL BUTTON */
+.btns-modal .github {
+  background-color: #010101;
+  color: #fff;
+  font-weight: bold;
+}
+.btns-modal .github img {
+  left: 25px;
+}
+
+/* MAIN CONTAINER BELOW NAVBAR */
+.main-cont {
+  width: 80%;
+  margin: auto !important;
+  height: 450px;
+}
+
+/* MAIN CONTAINER BELOW NAVBAR LEFT CONT TITLE */
+.main-cont .left-inner .card-title {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+/* MAIN CONTAINER BELOW NAVBAR LEFT CONT TEXT */
+.main-cont .left-inner .card-text {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* 2 BUTTONS ON LEFT CONTAINER BELOW NAVBAR */
+
+.btn3:hover , .btn1:hover {
+  color: rgb(231, 0, 139);
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+.btn2:hover  {
+  color: white;
+  background-color: rgb(231, 0, 139);
+  transition: all 0.3s ease-in;
+}
+
+.btn2 {
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(231, 0, 139);
+}
+.btn2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.btn2 a:hover {
+    color: white;
+}
+
+.btn3 {
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(231, 0, 139);
+  color: #fff;
+  transition: all 0.5 ease-out;
+}
+
+/* 3 STEPS TO SUCCESS CONTAINER */
+.steps-cont {
+  width: 70%;
+  margin: 50px auto !important ;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* BENEFITS OF MOCKROCK CONTAINER */
+.benefit-card {
+  width: 80%;
+  margin: 20px auto !important ;
+}
+.benefit-card .card {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* BACKGROUND OF EACH BENEFITS CARD */
+.benefit-card .card-1 {
+  position: relative;
+  background-image: linear-gradient(135deg, #0a89ff 0%, #ff3bf6 100%);
+}
+
+.benefit-card .card-1 img,
+.benefit-card .card-2 img,
+.benefit-card .card-4 img {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.benefit-card .card-3 img {
+  position: absolute;
+  top: -32%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.benefit-card .card-1 .card-body,
+.benefit-card .card-2 .card-body,
+.benefit-card .card-3 .card-body,
+.benefit-card .card-4 .card-body {
+  padding-top: 60px;
+}
+
+.benefit-card .card-2 {
+  background-image: linear-gradient(135deg, #121228 0%, #2b2b4d 100%);
+}
+.benefit-card .card-3 {
+  background-image: linear-gradient(135deg, #121228 0%, #2b2b4d 100%);
+}
+.benefit-card .card-4 {
+  background-image: linear-gradient(135deg, #0a89ff 0%, #ff3bf6 100%);
+}
+.benefit-card .card-4 img {
+  border-radius: 50%;
+}
+.card-title {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* TESTIMONIALS CONTAINER PROPERTIES */
+.test-cont {
+  width: 80%;
+  margin: auto !important;
+}
+
+.test-cont .card {
+  height: 280px;
+  background: #475993;
+}
+
+/* ACCORDIAN CONTENT */
+.accordion {
+  height: 100%;
+  width: 90%;
+  padding: 35px 0;
+  margin: 0px auto !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* COMPANY LOGON GRID COTENT CSS PROPERTIES */
+.comp-cont .row {
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+  align-items: center;
+  /*backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
+}
+/* CONTACT US PAGE CSS PROPERTIES */
+.contact-cont {
+  width: 80%;
+  margin: 30px auto !important;
+  background-image: linear-gradient(135deg, #160376 0%, #ff16f3 100%);
+}
+.contact-card {
+  width: 90%;
+}
+.contact-second1 {
+  width: 80%;
+  margin: 0 auto !important;
+}
+/* CONTACT FORM CONTAINER PROPERTIES */
+.contact-form-cont {
+  width: 60%;
+  margin: 50px auto !important ;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.contact-form-cont button {
+  color: #fff;
+  background: rgb(231, 0, 139);
+  outline: none;
+  border: none;
+  height: 40px;
+}
+
+/* ALL MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .btn2,
+  .btn3 {
+    font-size: 14px;
+    width: 140px;
+    height: 40px;
+  }
+
+  /* FONT SIZE OF LEFT CARD TITLE BELOW NAVBAR */
+  .left-inner .card-title {
+    font-size: 24px;
+  }
+  .left-inner .fresher {
+    font-size: 28px;
+  }
+  /* FONT SIZE OF LEFT CARD TEXT BELOW NAVBAR*/
+  .main-cont .left-inner .card-text {
+    font-size: 14px;
+  }
+  /* BACKGROUND OF NAVBAR MENU ON COLLAPSE SHOW*/
+  .menu {
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  /* BACKGROUND OF NAVBAR LOGIN BUTTON ON COLLAPSE SHOW*/
+  .buttons {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  /* MOVING RIGHT IMAGE TO TOP IN MOBILE DEVICE */
+  .main-cont .left-cont {
+    order: 1;
+  }
+  /* TO AVOID STEPS CONTAINER IS OVERLAP ON MAIN CONTAINER  */
+  .main-cont .left-inner .card-title {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .main-cont {
+    height: 100%;
+    width: 90%;
+  }
+  /* STEPS CONTAINER SIZE ALTERED */
+  .steps-cont p {
+    font-size: 12px !important;
+  }
+  .steps-cont,
+  .test-cont,
+  .comp-cont,
+  .accordion,
+  .benefit-card {
+    width: 90%;
+    margin-top: 0 !important;
+  }
+  .benefit-card .card-1 img,
+  .benefit-card .card-2 img,
+  .benefit-card .card-4 img {
+    top: -12%;
+  }
+
+  .benefit-card .card-3 img {
+    position: absolute;
+    top: -24%;
+  }
+  /* 4 CARDS SPACING BETWEEN EACH */
+  .benefit-card .card,
+  .test-cont .card {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .benefit-card .card,
+  .test-cont .card,
+  .comp-cont {
+    width: auto;
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+  .comp-cont .row {
+    width: 90%;
+    padding: 20px;
   }
 }

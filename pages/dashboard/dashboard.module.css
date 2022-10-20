@@ -1,0 +1,38 @@
+.sidebarContainer {
+  height: 80vh;
+  padding: 0px 0px;
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.sidebarContainer .sidebarUl {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebarContainer .sidebarLi {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding: 10px 30px 10px 45px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.sidebarContainer .sidebarLi a{
+    font-size: 18px;
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.scheduleBtn{
+    padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  background: rgb(231, 0, 139);
+  color: #fff;
+  transition: all 0.5 ease-out;
+}
