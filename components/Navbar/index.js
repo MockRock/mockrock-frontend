@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {useSession, signIn, signOut} from "next-auth/react"
+import Link from "next/link";
 
 export default function Navbar() {
     const {data: session} = useSession()
@@ -30,11 +31,11 @@ export default function Navbar() {
                     <div className="menu collapse navbar-collapse" id="btn">
                         <ul className="navbar-nav text-center">
                             <li className="nav-item">
-                                <a href="/" className="nav-link">Home</a>
+                                <Link href="/" className="nav-link">Home</Link>
                             </li>
-                            <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
-                            <li className="nav-item"><a href="contact.html" className="nav-link">Contact Us</a></li>
-                            <li className="nav-item"><a href="/dashboard" className="nav-link">Dashboard</a></li>
+                            <li className="nav-item"><Link href="about.html" className="nav-link">About</Link></li>
+                            <li className="nav-item"><Link href="contact.html" className="nav-link">Contact Us</Link></li>
+                            <li className="nav-item"><Link href="/dashboard" className="nav-link">Dashboard</Link></li>
                         </ul>
                         {/*<!-- </div> -->*/}
                         {/*<!-- BUTTON ON NAVBAR AT THE TOP RIGHT CORNER -->*/}
@@ -80,7 +81,7 @@ export default function Navbar() {
                                         <label htmlFor="loginInputEmail1" className="form-label">Email address</label>
                                         <input type="email" className="form-control" id="loginInputEmail1"
                                             placeholder="Enter your email address..." aria-describedby="emailHelp" />
-                                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.
+                                        <div id="emailHelp" className="form-text">We&apos;ll never share your email with anyone else.
                                         </div>
                                     </div>
                                     <div className="mb-3">
@@ -94,7 +95,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                {/*</a>*/}
+                {/*</Link>*/}
                 {/*</div>*/}
             </nav >
         </>

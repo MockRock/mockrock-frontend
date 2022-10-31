@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BannerSection() {
     return(
         <>
@@ -10,7 +12,7 @@ export default function BannerSection() {
                             your ideal job! Attend a 1 : 1 mock interview with specialists working at prime companies in the
                             world.</p>
                         <div className="btn-wrap d-flex justify-content-around justify-content-lg-start">
-                            <a href="#steps"><button type="button" className="btn2 shadow-lg my-3">Explore Programs</button></a>
+                            <Link href="#steps"><button type="button" className="btn2 shadow-lg my-3">Explore Programs</button></Link>
                             <button data-bs-toggle="modal" data-bs-target="#loginModal" type="button" className="btn3 shadow-lg my-3 mx-0 mx-lg-3">Starts @49/-</button>
                         </div>
                     </div>

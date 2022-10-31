@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return(
         <>
@@ -12,24 +14,24 @@ export default function Footer() {
 
                     {/*<!-- Right -->*/}
                     <div>
-                        <a href="" className="me-4 link-secondary">
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-facebook-official"></i>
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </Link>
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-twitter-square"></i>
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </Link>
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-google"></i>
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </Link>
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-instagram"></i>
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </Link>
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-linkedin"></i>
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </Link>
+                        <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-github"></i>
-                        </a>
+                        </Link>
                     </div>
                     {/*<!-- Right -->*/}
                 </section>
@@ -60,16 +62,16 @@ export default function Footer() {
                                     Products
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Angular</a>
+                                    <Link href="#!" className="text-reset">Angular</Link>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">React</a>
+                                    <Link href="#!" className="text-reset">React</Link>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Vue</a>
+                                    <Link href="#!" className="text-reset">Vue</Link>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Laravel</a>
+                                    <Link href="#!" className="text-reset">Laravel</Link>
                                 </p>
                             </div>
                             {/*<!-- Grid column -->*/}
@@ -81,16 +83,16 @@ export default function Footer() {
                                     Useful links
                                 </h6>
                                 <p>
-                                    <a href="/about-us" className="text-reset">About us</a>
+                                    <Link href="/about-us" className="text-reset">About us</Link>
                                 </p>
                                 <p>
-                                    <a href="/contactus" className="text-reset">Contact us</a>
+                                    <Link href="/contactus" className="text-reset">Contact us</Link>
                                 </p>
                                 <p>
-                                    <a href="/terms-and-condition" className="text-reset">Terms & Condition</a>
+                                    <Link href="/terms-and-condition" className="text-reset">Terms & Condition</Link>
                                 </p>
                                 <p>
-                                    <a href="/privacy-policy" className="text-reset">Privacy Policy</a>
+                                    <Link href="/privacy-policy" className="text-reset">Privacy Policy</Link>
                                 </p>
                             </div>
                             {/*<!-- Grid column -->*/}
@@ -117,7 +119,7 @@ export default function Footer() {
                 {/*<!-- Copyright -->*/}
                 <div className="text-center p-4" style={{backgroundColor: "rgba(2, 0, 36, 1)"}}>
                     © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="https://mockrock.in/"> mockrock.in</a>
+                    <Link className="text-reset fw-bold" href="https://mockrock.in/"> mockrock.in</Link>
                 </div>
                 {/*<!-- Copyright -->*/}
             </footer>

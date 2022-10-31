@@ -34,8 +34,8 @@ export default function StepSection() {
                         </li>
                     </ul>
                 </div>
-                <p className="text-center fs-4"><i>"Face your fears & fight till you fulfill your dreams"</i></p>
-                <p className="text-center fs-4"><i>"Encounter this test run & you'll excel in the real one!"</i></p>
+                <p className="text-center fs-4"><i>Face your fears & fight till you fulfill your dreams</i></p>
+                <p className="text-center fs-4"><i>Encounter this test run & you'll excel in the real one!</i></p>
             </div>
         </>
     )

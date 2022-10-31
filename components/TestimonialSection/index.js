@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TestimonialSection() {
     return (
         <>
@@ -13,7 +15,7 @@ export default function TestimonialSection() {
                                 hesitations that sometimes arise before a real interview. When it comes to evaluation and
                                 value for money, MockRock is by far the best. Strongly suggested for freshers as well as
                                 experienced</q></span>
-                            <a href="#" className="btn btn-info my-2">Amazon</a>
+                            <Link href="#" className="btn btn-info my-2">Amazon</Link>
                         </div>
                     </div>
                 </div>
@@ -26,8 +28,8 @@ export default function TestimonialSection() {
                             <span className="card-text text-white d-block"><q>Mock interview was remarkably similar to a real
                                 interiew. It really helped in letting me know where I stood and what my main areas of
                                 interest should be</q></span>
-                            <a href="#" className="btn btn-info my-2">Microsoft</a>
-                            <a href="#" className="btn btn-info">IBM</a>
+                            <Link href="#" className="btn btn-info my-2">Microsoft</Link>
+                            <Link href="#" className="btn btn-info">IBM</Link>
                         </div>
                     </div>
                 </div>
@@ -40,7 +42,7 @@ export default function TestimonialSection() {
                             <span className="card-text text-white d-block text-justify"><q>The experts looked over my entire profile
                                 and made an effort to cover every area of it. This mentally prepared me to deal with any
                                 situations that may arise during the actual interview</q></span>
-                            <a href="#" className="btn btn-info">Goggle</a>
+                            <Link href="#" className="btn btn-info">Goggle</Link>
                         </div>
                     </div>
                 </div>

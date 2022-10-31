@@ -71,9 +71,9 @@ function Dashboard() {
             <div className="row">
                 {/*<div className={`col-2 d-none d-lg-block ${styles.sidebarContainer}`}>
                     <ul className={` ${styles.sidebarUl}`}>
-                        <li className={` ${styles.sidebarLi}`}><img width='40pxs' src="/assests/dashboard.png" /><a href="/dasboard">Dashboard</a></li>
-                        <li className={` ${styles.sidebarLi}`}><img width='40px' src="/assests/laptop.png" /><a href="/interview">Interview</a></li>
-                        <li className={` ${styles.sidebarLi}`}><img width='40px' src="/assests/profile.png" /><a href="/profile">Profile</a></li>
+                        <li className={` ${styles.sidebarLi}`}><img width='40pxs' src="/assests/dashboard.png" /><Link href="/dasboard">Dashboard</Link></li>
+                        <li className={` ${styles.sidebarLi}`}><img width='40px' src="/assests/laptop.png" /><Link href="/interview">Interview</Link></li>
+                        <li className={` ${styles.sidebarLi}`}><img width='40px' src="/assests/profile.png" /><Link href="/profile">Profile</Link></li>
                     </ul>
                 </div>*/}
                 <div className={`col-12 ${styles.mainContainer}`}>
