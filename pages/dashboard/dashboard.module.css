@@ -1,32 +1,35 @@
+.mainContainer {
+  min-height: 100vh;
+}
 .sidebarContainer {
   height: 80vh;
   padding: 0px 0px;
-  border-right: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .sidebarContainer .sidebarUl {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .sidebarContainer .sidebarLi {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    color: white;
-    padding: 10px 30px 10px 45px;
-    border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  color: white;
+  padding: 10px 30px 10px 45px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.sidebarContainer .sidebarLi a{
-    font-size: 18px;
-    font-weight: 700;
-    color: inherit;
-    text-decoration: none;
-    padding-left: 20px;
+.sidebarContainer .sidebarLi a {
+  font-size: 18px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 20px;
 }
-.scheduleBtn{
-    padding: 10px 20px;
+.scheduleBtn {
+  padding: 10px 20px;
   border-radius: 10px;
   border: none;
   outline: none;
@@ -36,3 +39,62 @@
   color: #fff;
   transition: all 0.5 ease-out;
 }
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*Modal*/
+
+.modalDialoge {
+  max-width: 50% !important;
+}
+.modalContent {
+  background: linear-gradient(135deg, #121228 0%, #2b2b4d 100%) !important;
+}
+.inputCollege {
+  margin: 7px 14px 14px 14px;
+  width: 95%;
+  border: solid 1px white;
+  border-radius: 5px;
+  background: white;
+  padding: 10px;
+  color: black;
+}
+.inputCollege::-webkit-calendar-picker-indicator {
+  filter: invert(0.8) !important;
+  font-size: 24px;
+  padding: 0;
+}
+

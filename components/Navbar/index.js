@@ -18,7 +18,7 @@ export default function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-md">
-                <div className="navbar-inner justify-content-center">
+                <div className="navbar-inner justify-content-between">
                     <div className="logo d-flex justify-content-center align-middle">
                         <Image src="/assests/logo.png" width='190px' height='64.57px' />
                     </div>
