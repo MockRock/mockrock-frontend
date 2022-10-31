@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function BannerSection() {
@@ -18,7 +19,7 @@ export default function BannerSection() {
                     </div>
                 </div>
                 <div className="right-cont text-center col-12 col-md-6 col-lg-6">
-                    <img src="assests\poster.png" className="img-fluid poster" alt="poster"/>
+                    <Image width={527} height={351} src="/assests/poster.png" className="img-fluid poster" alt="poster"/>
                 </div>
             </div>
         </>

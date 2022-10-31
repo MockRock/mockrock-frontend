@@ -57,7 +57,9 @@ p,
 .navbar .navbar-nav {
   padding-right: 45px;
 }
-
+.nav-item {
+    margin: 0px 15px;
+}
 .navbar .navbar-nav .nav-item a:hover {
   color: rgb(231, 0, 139);
 }
@@ -342,6 +344,18 @@ p,
   outline: none;
   border: none;
   height: 40px;
+}
+
+.social-icons i {
+    margin: 0px 10px;
+    font-size: larger;
+}
+
+.link-wrap {
+    margin-bottom: 1rem;
+}
+.link-wrap a {
+    color: white !important;
 }
 
 /* ALL MEDIA QUERIES */

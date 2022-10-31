@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function StepSection() {
     return(
         <>
             <div  id='steps' className="row steps-cont shadow-lg p-0 p-lg-5 mb-5 mt-4">
                 <div className="col-sm-6">
-                    <img src="assests\step.png" className="img-fluid p-4" width="84%" alt="steps"/>
+                    <Image src="/assests/step.png" className="img-fluid p-4" width={362} height={350} alt="steps"/>
                     <div className="left-cont p-0 p-lg-5">
                             <h3 className="card-title fs-2 fw-bold">Interview & Improve</h3>
                             <p className="card-text py-3 fs-6 mb-0">Grab this opportunity to enrich your interview skills & enjoy working at

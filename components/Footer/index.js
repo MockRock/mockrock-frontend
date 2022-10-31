@@ -13,25 +13,25 @@ export default function Footer() {
                     {/*<!-- Left -->*/}
 
                     {/*<!-- Right -->*/}
-                    <div>
-                        <Link href="" className="me-4 link-secondary">
+                    <div className='social-icons'>
+                        {/*<Link href="" className="me-4 link-secondary">
                             <i className="fa fa-facebook-official"></i>
-                        </Link>
+                        </Link>*/}
                         <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-twitter-square"></i>
                         </Link>
-                        <Link href="" className="me-4 link-secondary">
+                        {/*<Link href="" className="me-4 link-secondary">
                             <i className="fa fa-google"></i>
-                        </Link>
+                        </Link>*/}
                         <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-instagram"></i>
                         </Link>
-                        <Link href="" className="me-4 link-secondary">
+                        {/*<Link href="" className="me-4 link-secondary">
                             <i className="fa fa-linkedin"></i>
                         </Link>
                         <Link href="" className="me-4 link-secondary">
                             <i className="fa fa-github"></i>
-                        </Link>
+                        </Link>*/}
                     </div>
                     {/*<!-- Right -->*/}
                 </section>
@@ -43,57 +43,37 @@ export default function Footer() {
                         {/*<!-- Grid row -->*/}
                         <div className="row mt-3">
                             {/*<!-- Grid column -->*/}
-                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
                                 {/*<!-- Content -->*/}
                                 <h6 className="text-uppercase fw-bold mb-4">
-                                    <i className="fas fa-gem me-3 text-secondary"></i>Company name
+                                    MockRock
                                 </h6>
                                 <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                    Power up with this pocket-friendly platform and ace your interviews to land your ideal job! Attend a 1 : 1 mock interview with specialists working at prime companies in the world.
                                 </p>
                             </div>
                             {/*<!-- Grid column -->*/}
 
-                            {/*<!-- Grid column -->*/}
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                                {/*<!-- Links -->*/}
-                                <h6 className="text-uppercase fw-bold mb-4">
-                                    Products
-                                </h6>
-                                <p>
-                                    <Link href="#!" className="text-reset">Angular</Link>
-                                </p>
-                                <p>
-                                    <Link href="#!" className="text-reset">React</Link>
-                                </p>
-                                <p>
-                                    <Link href="#!" className="text-reset">Vue</Link>
-                                </p>
-                                <p>
-                                    <Link href="#!" className="text-reset">Laravel</Link>
-                                </p>
-                            </div>
-                            {/*<!-- Grid column -->*/}
+                            
 
                             {/*<!-- Grid column -->*/}
-                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <div className="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4 links">
                                 {/*<!-- Links -->*/}
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Useful links
                                 </h6>
-                                <p>
+                                <div className='link-wrap'>
                                     <Link href="/about-us" className="text-reset">About us</Link>
-                                </p>
-                                <p>
-                                    <Link href="/contactus" className="text-reset">Contact us</Link>
-                                </p>
-                                <p>
-                                    <Link href="/terms-and-condition" className="text-reset">Terms & Condition</Link>
-                                </p>
-                                <p>
-                                    <Link href="/privacy-policy" className="text-reset">Privacy Policy</Link>
-                                </p>
+                                </div>
+                                <div className='link-wrap'>
+                                    <Link  href="/contact-us" className="text-reset">Contact us</Link>
+                                </div>
+                                <div className='link-wrap'>
+                                    <Link  href="/terms-and-condition" className="text-reset">Terms & Condition</Link>
+                                </div>
+                                <div className='link-wrap'>
+                                    <Link  href="/privacy-policy" className="text-reset">Privacy Policy</Link>
+                                </div>
                             </div>
                             {/*<!-- Grid column -->*/}
 
