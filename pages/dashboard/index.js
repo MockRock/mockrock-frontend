@@ -101,7 +101,7 @@ function Dashboard() {
                                     <div className={`modal-content text-white ${styles.modalContent}`}>
                                         <div className="modal-body">
                                             {/*<!-- MODAL LOGIN FORM -->*/}
-                                            <h4>Let's assign you the perfect mentor for Interview Preparation Program</h4>
+                                            <h4>Let&apos;s assign you the perfect mentor for Interview Preparation Program</h4>
                                             <form onSubmit={handleScheduleForm} className="py-4">
                                                 {/*<!-- LOGIN MODAL FORM BUTTONS -->*/}
                                                 <div className="row">
